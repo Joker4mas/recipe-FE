@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --Rose-200: hsl(344, 85%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+}
+
+body {
+    background-color: var(--Stone-100);
+    padding: 4rem 2rem;
+    margin: auto;
+}
+
+.container {
+    background-color: var(--Rose-50);
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+hr {
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.hero-section img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-family: 'Young Serif', sans-serif;
+}
+
+p {
+    margin: 1rem 0;
+
+}
+
+.prep-time, .ingredients, .step {
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+.prep-time {
+    background-color: var(--Rose-200);
+    border-radius: 1rem;
+    /* padding: 2rem; */
+}
+
+h2 {
+    color: var(--Rose-800);
+    /* margin: 1rem 0; */
+    font-family: 'Young Serif', sans-serif;
+
+}
+
+.prep-time ul {
+    display: block;
+    padding: 1rem;
+}
+
+.prep-time li {
+    padding: .5rem 1.5rem 0;
+}
+
+.ingredients h2 {
+    margin: 1rem 0 0 -1rem;
+}
+
+.ingredients ul {
+    display: block;
+    justify-content: center;
+}
+
+.ingredients li {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    /* list-style-type: none; */
+}
+
+.step h2 {
+    margin: 1rem 0 0 -1rem;
+}
+
+.step ul {
+    display: block;
+    padding: 1rem;
+}
+
+.step li {
+    padding: .5rem 1.5rem 0;
+    line-height: 1.4rem;
+}
+
+.nutrition-container h2 {
+    margin: 1rem 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table tr {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: start;
+}
+
+table tr {
+    width: 100%;
+    border-bottom: 1px solid #a19898;
+}
+
+table td {
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.cals {
+    /* margin-left: -12rem; */
+    text-align: center;
+    align-items: start;
+    color: var(--Rose-800);
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
