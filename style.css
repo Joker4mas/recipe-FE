@@ -136,11 +136,12 @@ table tr {
 table td {
     padding: 1rem 0;
     text-align: left;
+    align-items: start;
 }
 
 .cals {
     /* margin-left: -12rem; */
-    text-align: center;
+    text-align: left;
     align-items: start;
     color: var(--Rose-800);
     font-weight: bold;
@@ -154,4 +155,50 @@ table td {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .hero-section img {
+        border-radius: 0;
+    }
+
+    h1 {
+        margin: 1rem;
+        font-family: 'Young Serif', sans-serif;
+    }
+
+    p {
+        margin: 1rem;
+    }
+
+    .prep-time {
+        margin: 0 auto;
+        padding: 1rem;
+
+    }
+
+    .ingredients {
+        margin: 0 1rem;
+    }
+
+    .step {
+        margin: 0 1rem;
+    }
+
+    .nutrition-container {
+        margin: 0 1rem;
+    }
+
+    table td {
+        padding: 0.5rem;
+    }
 }
