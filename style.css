@@ -18,7 +18,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-size: 16px; */
 }
 
 body {
@@ -33,6 +32,10 @@ body {
     border-radius: 2rem;
     max-width: 60%;
     margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
 }
 
 hr {
@@ -63,12 +66,10 @@ p {
 .prep-time {
     background-color: var(--Rose-200);
     border-radius: 1rem;
-    /* padding: 2rem; */
 }
 
 h2 {
     color: var(--Rose-800);
-    /* margin: 1rem 0; */
     font-family: 'Young Serif', sans-serif;
 
 }
@@ -94,7 +95,6 @@ h2 {
 .ingredients li {
     margin: 1rem 0;
     padding: 0 1rem;
-    /* list-style-type: none; */
 }
 
 .step h2 {
@@ -140,7 +140,6 @@ table td {
 }
 
 .cals {
-    /* margin-left: -12rem; */
     text-align: left;
     align-items: start;
     color: var(--Rose-800);
@@ -165,14 +164,29 @@ table td {
     .container {
         max-width: 100%;
         padding: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .sub-container {
+        padding: 2rem;
+    }
+
+
+    .hero-section {
+        display: block !important;
     }
 
     .hero-section img {
         border-radius: 0;
     }
 
+    .hidden {
+        display: none !important;
+    }
+
     h1 {
-        margin: 1rem;
+        margin: .5rem;
         font-family: 'Young Serif', sans-serif;
     }
 
@@ -180,25 +194,8 @@ table td {
         margin: 1rem;
     }
 
-    .prep-time {
-        margin: 0 auto;
-        padding: 1rem;
-
+    .prep-time h2 {
+        margin: 0;
     }
 
-    .ingredients {
-        margin: 0 1rem;
-    }
-
-    .step {
-        margin: 0 1rem;
-    }
-
-    .nutrition-container {
-        margin: 0 1rem;
-    }
-
-    table td {
-        padding: 0.5rem;
-    }
 }
